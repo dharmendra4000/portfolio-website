@@ -47,6 +47,14 @@ const PROJECTS = [
     color: "#00f5c4", icon: "🤖",
   },
   {
+    title: "Gym Management System",
+    link: "https://github.com/dharmendra4000/Gym-Management-System",
+    desc: "A Gym Management System built with the Frappe Framework to streamline member registration, membership plans, attendance tracking, trainer management, and billing through an intuitive ERP-based interface.",
+    tech: ["Python", "Frappe Framework", "ERPNext", "MariaDB", "JavaScript", "HTML/CSS"],
+    color: "#00f5c4",
+    icon: "🏋️",
+  },
+  {
     title: "Employee Travel Portal",
     link: null,
     desc: "Self-service portal for travel allowance requests & reimbursement with expense tracking and status monitoring.",
