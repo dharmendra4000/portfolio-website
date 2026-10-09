@@ -331,7 +331,7 @@ export default function Portfolio() {
             <button onClick={() => scrollTo("Contact")} style={{ border: "1.5px solid rgba(255,255,255,0.15)", color: "#94a3b8", padding: "12px 26px", borderRadius: 9, fontWeight: 600, fontSize: 14, background: "transparent", cursor: "pointer" }}>Contact Me</button>
           </div>
           <div style={{ display: "flex", gap: 32, flexWrap: "wrap" }}>
-            {[["1+","Year Exp."],["3","Projects"],["5+","Tech Stacks"],["MCA","@ LPU"]].map(([v,l]) => (
+            {[["1+","Year Exp."],["4","Projects"],["5+","Tech Stacks"],["MCA","@ LPU"]].map(([v,l]) => (
               <div key={l} style={{ display: "flex", flexDirection: "column" }}>
                 <span style={{ fontSize: 28, fontWeight: 900, color: "#00f5c4" }}>{v}</span>
                 <span style={{ fontSize: 11, color: "#4a5568", letterSpacing: 1.2, textTransform: "uppercase" }}>{l}</span>
